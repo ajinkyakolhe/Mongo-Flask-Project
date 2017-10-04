@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #3CC47C;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #DF744A;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #D4AF37;
+    padding: 20px;
+}
+</style>
+</head>
+
+
+
+
+
+<body>
+
+<h3>API Data</h3>
+
+<div class="container">
+  <form action="/echo">
+    <label for="titlename">Test Database keyword/name</label>
+    <input type="text" id="titlename" name="title" placeholder="Name of Mashup application">
+
+    <label for="yearupdated">Year Updated</label>
+    <input type="text" id="yearupdated" name="year" placeholder="Enter year..">
+
+    <label for="apiname">Tags used</label>
+    <input type="text" id="apiname" name="apidata" placeholder="tag">
+
+    <label for="rating">Rating</label>
+    <select id="rating" name="rating">
+      <option value="greater than">Greater than</option>
+      <option value="gte">Greater Than or Equal</option>
+      <option value="less than">Less Than</option>
+      <option value="le">Less Than or Equal</option>
+      <option value="equal">Equal</option>
+    </select>
+    <label for="rating">Value</label>
+    <input type="text" id="ratingv" name="ratingv" placeholder="Value">
+
+    <label for="output">Output data</label>
+    <textarea id="output" name="output" placeholder="Write something.." style="height:600px">
+    {% for num in show %}
+    {{num}}
+    {% endfor %}
+    </textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+
+<br><br><br>
+
+
+
+</body>
+</html>

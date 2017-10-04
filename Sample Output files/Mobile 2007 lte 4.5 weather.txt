@@ -1,0 +1,6 @@
+    
+    {'APIs': ['411Sync: http://www.programmableweb.com/api/411sync', 'Microsoft Bing: http://www.programmableweb.com/api/microsoft-bing'], 'description': 'Get live weather information from MSN on your mobile phones using WAP, SMS, or Email. Type msnweather followed by a zip code. Get weather updates within seconds.', 'rating': '', 'updated': '2007-09-11T21:00:06Z\n', 'title': 'Mobile Weather Search', 'id': 'http://www.programmableweb.com/mashup/mobile-weather-search'}
+    
+    {'APIs': ['411Sync: http://www.programmableweb.com/api/411sync'], 'description': 'Get the latest weather information from The Weather Underground on your mobile phone using SMS, Email or WAP. Use the keyword wunder followed by the zip code or city.', 'rating': '4.0', 'updated': '2007-06-04T23:03:27Z\n', 'title': 'Weather Underground Mobile', 'id': 'http://www.programmableweb.com/mashup/weather-underground-now-mobile'}
+    
+    
